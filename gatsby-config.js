@@ -6,12 +6,6 @@ module.exports = {
   plugins: [
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
-    {
-      resolve: "gatsby-plugin-google-analytics",
-      options: {
-        trackingId: "G-WPVF7K43JL",
-      },
-    },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
