@@ -1,21 +1,11 @@
+.main {
+  min-height: 90vh;
+}
+
 .container {
-    margin: auto;
-    max-width: 500px;
-    font-family: sans-serif;
-    background-color: brown;
-  }
-  
-  .heading {
-    color: rebeccapurple;
-  }
-  .nav-links {
-    display: flex;
-    list-style: none;
-    padding-left: 0;
-  }
-  .nav-link-item {
-    padding-right: 2rem;
-  }
-  .nav-link-text {
-    color: black;
-  }
+  background-image: url('../images/BV\ BACKGROUND.png');
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
