@@ -1,0 +1,16 @@
+.navbar-custom {
+  background-color: black;
+  color: white;
+}
+
+#responsive-navbar-nav {
+  flex-grow: initial;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: black !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
