@@ -4,11 +4,12 @@ import { Container } from 'react-bootstrap';
 import Footer from './footer';
 import Header from './header';
 
-const Layout = ({ pageTitle, children }) => {
+const Layout = ({ children }) => {
   return (
     <>
       <Header />
       <main className={main}>
+        <title>Buen Viaje Radio</title>
         <Container fluid className={container}>
           {children}
         </Container>

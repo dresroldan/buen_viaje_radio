@@ -14,7 +14,11 @@ const Header = () => {
       >
         <Container>
           <Navbar.Brand href="/">
-            <img src={Logo} style={{ width: 100 }} />
+            <img
+              src={Logo}
+              alt="Buen Viaje Radio Logo"
+              style={{ width: 100, height: 63 }}
+            />
           </Navbar.Brand>
           <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
