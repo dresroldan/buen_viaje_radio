@@ -10,7 +10,6 @@ const IndexPage = () => {
         <div className="stream-container">
           <iframe
             src="https://player.twitch.tv/?video=1044184765&parent=buenviajeradio.com"
-            parent="buenviajeradio.com"
             frameborder="0"
             allowfullscreen="true"
             scrolling="no"
