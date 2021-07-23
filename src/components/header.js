@@ -20,7 +20,7 @@ const Header = () => {
               style={{ width: 100, height: 63 }}
             />
           </Navbar.Brand>
-          <Navbar.Toggle
+          {/* <Navbar.Toggle
             aria-controls="responsive-navbar-nav"
             className="navbar-toggler"
           />
@@ -31,7 +31,7 @@ const Header = () => {
                 photos
               </Nav.Link>
             </Nav>
-          </Navbar.Collapse>
+          </Navbar.Collapse> */}
         </Container>
       </Navbar>
     </nav>
