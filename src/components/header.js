@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
-import Logo from '../images/BV-Logo.png';
+import Logo from '../images/bvradiologo.png';
 import './header.css';
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
       <Navbar
         collapseOnSelect
         expand="lg"
-        variant="dark"
+        variant="light"
         className="navbar-custom"
       >
         <Container>

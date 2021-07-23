@@ -9,20 +9,31 @@ const IndexPage = () => {
       <div className="wrapper">
         <div className="stream-container">
           <iframe
-            src="https://player.twitch.tv/?video=1044184765&parent=buenviajeradio.com"
+            title="vimeo-player"
+            src="https://player.vimeo.com/video/577291665"
+            width="640"
+            height="375"
             frameborder="0"
-            allowfullscreen="true"
-            scrolling="no"
-            height="378"
-            width="620"
-            title="Buen Viaje Radio"
+            allowfullscreen
+            className="vimeo-player"
           ></iframe>
         </div>
-      </div>
+        <div className="mixcloud-container">
+          <iframe
+            width="100%"
+            height="120"
+            src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fbuenviaje_radio%2Fbv-002%2F"
+            frameborder="0"
+          ></iframe>
 
-      <div className="instagram-feed">
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-        <div class="elfsight-app-843c4d83-11f4-4f68-9156-60821b1b1edb"></div>
+          <iframe
+            width="100%"
+            height="120"
+            src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fbuenviaje_radio%2Fbv-004%2F"
+            frameborder="0"
+          ></iframe>
+        </div>
+        <div className="instagram-container"></div>
       </div>
     </Layout>
   );
