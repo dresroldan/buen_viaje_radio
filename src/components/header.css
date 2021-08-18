@@ -1,16 +1,8 @@
-.navbar-custom {
-  background-color: white;
-  color: white;
+.nav-link {
+  color: white !important;
 }
 
-#responsive-navbar-nav {
-  flex-grow: initial;
-}
-
-.navbar-dark .navbar-toggler {
-  border-color: black !important;
-}
-
-.navbar-toggler:focus {
-  box-shadow: none !important;
+.navbar-brand {
+  margin-right: 0 !important;
+  margin-left: 30px;
 }

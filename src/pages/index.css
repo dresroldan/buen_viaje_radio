@@ -1,16 +1,49 @@
-.wrapper {
-  padding-top: 50px;
+.hero-container {
+  background: #eee;
+  height: 800px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+
+.hero-video {
+  box-sizing: border-box;
+  height: 56.25vw;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  width: 177.77777778vh;
+}
+
+.blockquote {
+  padding: 20px 20px 20px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gradient-text {
+  background: linear-gradient(35deg, #72d579, #0d6efd);
+  background-size: 300% 300%;
+  animation: layout-module--gradient--ovffC 15s ease infinite;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.2s ease-out;
+}
+
+.media-wrapper {
   max-width: 920px;
   max-height: auto;
   margin: auto;
   width: 100%;
 }
 
-.stream-container {
+.vimeo-container {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 35px;
-  /* height: 0; */
   overflow: hidden;
 }
 
