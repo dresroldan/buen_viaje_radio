@@ -1,5 +1,10 @@
 .nav-link {
   color: white !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link.active {
+  color: black !important;
 }
 
 .navbar-brand {
@@ -9,13 +14,18 @@
 
 .navbar {
   background-color: transparent;
+  -webkit-transition: background-color 220ms linear;
+  -moz-transition: background-color 220ms linear;
+  -o-transition: background-color 220ms linear;
+  -ms-transition: background-color 220ms linear;
+  transition: background-color 220ms linear;
 }
 
 .navbar.active {
   background-color: black;
-  -webkit-transition: background-color 250ms linear;
-  -moz-transition: background-color 250ms linear;
-  -o-transition: background-color 250ms linear;
-  -ms-transition: background-color 250ms linear;
-  transition: background-color 250ms linear;
+  -webkit-transition: background-color 220ms linear;
+  -moz-transition: background-color 220ms linear;
+  -o-transition: background-color 220ms linear;
+  -ms-transition: background-color 220ms linear;
+  transition: background-color 220ms linear;
 }

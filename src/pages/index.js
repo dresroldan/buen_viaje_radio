@@ -8,7 +8,7 @@ const IndexPage = () => {
     <Layout>
       <div className="hero-container">
         <iframe
-          src="https://player.vimeo.com/video/588487253?background=1"
+          src="https://player.vimeo.com/video/589492144?background=1"
           width="x"
           height="y"
           frameBorder="0"
