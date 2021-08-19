@@ -11,9 +11,9 @@ const IndexPage = () => {
           src="https://player.vimeo.com/video/588487253?background=1"
           width="x"
           height="y"
-          frameborder="0"
+          frameBorder="0"
           allow="autoplay; fullscreen"
-          allowfullscreen
+          allowFullScreen
           className="hero-video"
           title="BV-Hero-Vid.mp4"
         ></iframe>
@@ -46,8 +46,8 @@ const IndexPage = () => {
             src="https://player.vimeo.com/video/577291665"
             width="640"
             height="375"
-            frameborder="0"
-            allowfullscreen
+            frameBorder="0"
+            allowFullScreen
             className="vimeo-player"
           ></iframe>
         </div>
@@ -56,7 +56,7 @@ const IndexPage = () => {
             width="100%"
             height="120"
             src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fbuenviaje_radio%2Fbv-002%2F"
-            frameborder="0"
+            frameBorder="0"
             title="BV-Mixcloud-002"
           ></iframe>
 
@@ -64,7 +64,7 @@ const IndexPage = () => {
             width="100%"
             height="120"
             src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fbuenviaje_radio%2Fbv-004%2F"
-            frameborder="0"
+            frameBorder="0"
             title="BV-Mixcloud-004"
           ></iframe>
         </div>
