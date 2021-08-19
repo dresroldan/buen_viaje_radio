@@ -19,28 +19,27 @@ const IndexPage = () => {
         ></iframe>
       </div>
 
-      <div className="blockquote">
-        <h1>
-          a{' '}
-          <a
-            href="https://www.twitch.tv/buenviajeradio"
-            target="_blank"
-            rel="noreferrer"
-            className="gradient-text"
-          >
-            monthly livestream{' '}
-          </a>
-          exploring sounds ranging from breezy balearic mediterranea to
-          transcendent underground house.{' '}
-          <a href="/" rel="noreferrer" className="gradient-text">
-            buen viaje radio
-          </a>{' '}
-          ultimately aims to establish a community-driven platform to promote
-          dance music events and host a record label.{' '}
-        </h1>
-      </div>
-
       <div className="media-wrapper">
+        <div className="blockquote">
+          <h1>
+            a{' '}
+            <a
+              href="https://www.twitch.tv/buenviajeradio"
+              target="_blank"
+              rel="noreferrer"
+              className="gradient-text"
+            >
+              monthly livestream{' '}
+            </a>
+            exploring sounds ranging from breezy balearic mediterranea to
+            transcendent underground house.{' '}
+            <a href="/" rel="noreferrer" className="gradient-text">
+              buen viaje radio
+            </a>{' '}
+            ultimately aims to establish a community-driven platform to promote
+            dance music events.{' '}
+          </h1>
+        </div>
         <div className="vimeo-container">
           <iframe
             title="BV-004-Vid.mp4"

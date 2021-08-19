@@ -1,9 +1,9 @@
 .hero-container {
-  background: #eee;
-  height: 800px;
   overflow: hidden;
   padding: 0;
   position: relative;
+  height: 690px;
+  margin-bottom: 40px;
 }
 
 .hero-video {
@@ -19,8 +19,9 @@
 }
 
 .blockquote {
-  padding: 20px 20px 20px 20px;
   font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 40px;
+  padding: 20px 20px 20px 30px;
 }
 
 .gradient-text {
@@ -34,7 +35,7 @@
 }
 
 .media-wrapper {
-  max-width: 920px;
+  max-width: 1100px;
   max-height: auto;
   margin: auto;
   width: 100%;
