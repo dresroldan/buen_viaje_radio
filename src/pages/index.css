@@ -46,6 +46,7 @@
   padding-bottom: 56.25%;
   padding-top: 35px;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 
 .vimeo-player {
@@ -58,8 +59,9 @@
 }
 
 .mixcloud-container {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 30px;
+  margin-bottom: 50px;
 }

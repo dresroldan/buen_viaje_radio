@@ -14,10 +14,11 @@
 
 .navbar {
   background-color: transparent;
+  transition: all 0.3s ease;
 }
 
 .navbar.active {
   /* background-color: black; */
-
+  transition: all 0.3s ease;
   top: -100px;
 }
