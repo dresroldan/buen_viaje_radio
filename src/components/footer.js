@@ -10,14 +10,20 @@ const Footer = () => {
           <Col className="text-center py-3">
             <ul>
               <li>
-                <a href="instagram.com">EMAIL</a>
+                <a href="mailto:dresroldan@gmail.com">EMAIL</a>
               </li>
               <li>
-                <a href="instagram.com">INSTAGRAMs</a>
+                <a
+                  href="https://www.instagram.com/buenviaje_radio/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  INSTAGRAM
+                </a>
               </li>
             </ul>
 
-            <p className="copyright-text"> &copy; 2021 Buen Viaje Radio</p>
+            <p className="copyright-text"> &copy; 2021 buen viaje radio</p>
           </Col>
         </Row>
       </Container>
