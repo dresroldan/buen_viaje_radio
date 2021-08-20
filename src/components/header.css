@@ -14,18 +14,10 @@
 
 .navbar {
   background-color: transparent;
-  -webkit-transition: background-color 220ms linear;
-  -moz-transition: background-color 220ms linear;
-  -o-transition: background-color 220ms linear;
-  -ms-transition: background-color 220ms linear;
-  transition: background-color 220ms linear;
 }
 
 .navbar.active {
-  background-color: black;
-  -webkit-transition: background-color 220ms linear;
-  -moz-transition: background-color 220ms linear;
-  -o-transition: background-color 220ms linear;
-  -ms-transition: background-color 220ms linear;
-  transition: background-color 220ms linear;
+  /* background-color: black; */
+
+  top: -100px;
 }
