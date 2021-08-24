@@ -41,6 +41,19 @@ const IndexPage = () => {
             dance music events.{' '}
           </h1>
         </div>
+
+        <div className="vimeo-container">
+          <iframe
+            title="BV-004-Vid.mp4"
+            src="https://player.vimeo.com/video/591318596?"
+            width="640"
+            height="375"
+            frameBorder="0"
+            allowFullScreen
+            className="vimeo-player"
+          ></iframe>
+        </div>
+
         <div className="vimeo-container">
           <iframe
             title="BV-004-Vid.mp4"
@@ -52,6 +65,7 @@ const IndexPage = () => {
             className="vimeo-player"
           ></iframe>
         </div>
+
         <div className="mixcloud-container">
           <iframe
             width="100%"
