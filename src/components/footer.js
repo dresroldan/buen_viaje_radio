@@ -10,7 +10,7 @@ const Footer = () => {
           <Col className="text-center py-3">
             <ul>
               <li>
-                <a href="mailto:dresroldan@gmail.com">EMAIL</a>
+                <a href="mailto:hellobuenviaje@gmail.com">BOOKING</a>
               </li>
               <li>
                 <a
