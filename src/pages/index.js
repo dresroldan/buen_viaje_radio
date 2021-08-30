@@ -82,6 +82,14 @@ const IndexPage = () => {
             frameBorder="0"
             title="BV-Mixcloud-004"
           ></iframe>
+
+          <iframe
+            width="100%"
+            height="120"
+            src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fbuenviaje_radio%2Fe008%2F"
+            frameborder="0"
+            title=""
+          ></iframe>
         </div>
       </div>
     </Layout>
