@@ -8,7 +8,7 @@
 
 ## Description
 
-A single page website for Buen Viaje Radio, a monthly DJ livestream and platform.
+A single page website for Buen Viaje Radio, a monthly DJ livestream platform.
 
 ## Deployed Website
 
