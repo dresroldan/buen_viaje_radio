@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Fade from 'react-reveal/Fade';
 import Layout from '../components/layout';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
@@ -66,7 +65,7 @@ const IndexPage = () => {
           ></iframe>
         </div>
 
-        <div className="mixcloud-container">
+        <div className="mixcloud-container" id="mixes">
           <iframe
             width="100%"
             height="120"
