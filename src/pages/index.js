@@ -41,7 +41,9 @@ const IndexPage = () => {
           </h1>
         </div>
 
+
         <div className="vimeo-container">
+        <div className="vimeo-wrapper">
           <iframe
             title="BV-004-Vid.mp4"
             src="https://player.vimeo.com/video/591318596?"
@@ -53,7 +55,7 @@ const IndexPage = () => {
           ></iframe>
         </div>
 
-        <div className="vimeo-container">
+        <div className="vimeo-wrapper">
           <iframe
             title="BV-004-Vid.mp4"
             src="https://player.vimeo.com/video/577291665"
@@ -64,30 +66,35 @@ const IndexPage = () => {
             className="vimeo-player"
           ></iframe>
         </div>
+        </div>
+
 
         <div className="mixcloud-container" id="mixes">
           <iframe
             width="100%"
-            height="120"
-            src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fbuenviaje_radio%2Fbv-002%2F"
-            frameBorder="0"
-            title="BV-Mixcloud-002"
+            height="166"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1199541973&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"
           ></iframe>
 
           <iframe
             width="100%"
-            height="120"
-            src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fbuenviaje_radio%2Fbv-004%2F"
-            frameBorder="0"
-            title="BV-Mixcloud-004"
+            height="166"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1183153300&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"
           ></iframe>
 
           <iframe
             width="100%"
-            height="120"
-            src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Fbuenviaje_radio%2Fe008%2F"
-            frameborder="0"
-            title=""
+            height="166"
+            scrolling="no"
+            frameborder="no"
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1170068050&color=%23ff5500&auto_play=false&hide_related=true&show_comments=true&show_user=true&show_reposts=false&show_teaser=false"
           ></iframe>
         </div>
       </div>

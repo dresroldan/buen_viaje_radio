@@ -2,7 +2,7 @@
   overflow: hidden;
   padding: 0;
   position: relative;
-  height: 690px;
+  height: 80vh;
   margin-bottom: 40px;
 }
 
@@ -41,7 +41,11 @@
   width: 100%;
 }
 
-.vimeo-container {
+.vimeo-container{
+  padding: 20px;
+}
+
+.vimeo-wrapper{
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 35px;
@@ -59,8 +63,7 @@
 }
 
 .mixcloud-container {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px ;
   display: grid;
   grid-gap: 30px;
   margin-bottom: 50px;

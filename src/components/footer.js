@@ -14,7 +14,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/buenviaje_radio/"
+                  href="https://www.instagram.com/buenviaje_djs"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -23,7 +23,7 @@ const Footer = () => {
               </li>
             </ul>
 
-            <p className="copyright-text"> &copy; 2021 buen viaje radio</p>
+            <p className="copyright-text"> &copy; 2022 buen viaje</p>
           </Col>
         </Row>
       </Container>
